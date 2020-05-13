@@ -15,7 +15,6 @@ print('Input file size   : ', im.size )
 print('Input file name   : ', image_name_input )
 print('Input Image Size  : ', os.path.getsize (image_path_input  + image_name_input))
 
-# image_name_output = '05_compress_image_01_output.png'
 image_name_output = 'image0.jpg'
 
 im.save(image_path_output + image_name_output ,optimize=True,quality=50)
